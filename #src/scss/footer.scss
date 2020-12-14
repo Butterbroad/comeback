@@ -1,0 +1,40 @@
+.footer {
+  display: none;
+
+  // @media (max-width: 425px) {
+  //   display: block;
+  // }
+  // .footer__wrapper
+
+  &__wrapper {
+    
+  }
+
+  // .footer__box
+
+  &__box {
+    display: flex;
+    justify-content: center;
+  }
+
+  // .footer__apps
+
+  &__apps {
+  }
+
+  // .footer__copy
+
+  &__copy {
+    font-size: 12px;
+    line-height: 100%;
+    color: #fff;
+    font-family: "Gilroy-Regular", sans-serif;
+  }
+}
+.apps {
+
+  // .apps__link
+
+  &__link {
+  }
+}
