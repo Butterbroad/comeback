@@ -41,32 +41,32 @@ mobLinks.forEach(link => {
 });
 
 //modal 
-// const modalTrigger = document.querySelector('.hero__info');
-// const modal = document.querySelector('.modal');
+const modalTrigger = document.querySelector('.content__info');
+const modal = document.querySelector('.modal');
 
-// function toggleModal() {
-//   modal.classList.toggle('active');
+function toggleModal() {
+  modal.classList.toggle('active');
 
-//   const modalClose = document.querySelector('.modal-info__close');
-//   modalClose.addEventListener('click', () => {
-//     modal.classList.remove('active');
-//   });
-// }
+  const modalClose = document.querySelector('.modal-info__close');
+  modalClose.addEventListener('click', () => {
+    modal.classList.remove('active');
+  });
+}
 
-// modalTrigger.addEventListener('click', (e) => {
-//   e.stopPropagation();
-//   toggleModal();
-// });
+modalTrigger.addEventListener('click', (e) => {
+  e.stopPropagation();
+  toggleModal();
+});
 
-// document.addEventListener('click', e => {
-//   let target = e.target;
-//   let isModal = target == modal;
-//   let isTrigger = target == modalTrigger;
-//   let menuIsActive = modal.classList.contains('active');
-//   if (isModal && !isTrigger && menuIsActive) {
-//     toggleModal();
-//   }
-// });
+document.addEventListener('click', e => {
+  let target = e.target;
+  let isModal = target == modal;
+  let isTrigger = target == modalTrigger;
+  let menuIsActive = modal.classList.contains('active');
+  if (isModal && !isTrigger && menuIsActive) {
+    toggleModal();
+  }
+});
 
 
 
