@@ -1,5 +1,11 @@
 .footer {
   display: none;
+  position: relative;
+  z-index: 10;
+
+  @media (max-width: 639px) {
+    display: block;
+  }
 
   // @media (max-width: 425px) {
   //   display: block;
@@ -7,7 +13,7 @@
   // .footer__wrapper
 
   &__wrapper {
-    
+    padding: 20px 0;
   }
 
   // .footer__box
@@ -20,6 +26,7 @@
   // .footer__apps
 
   &__apps {
+    margin-bottom: 15px;
   }
 
   // .footer__copy

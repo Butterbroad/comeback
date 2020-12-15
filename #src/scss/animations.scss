@@ -1,0 +1,104 @@
+@keyframes fromLeft {
+  0% {
+    opacity: 0;
+    transform: translate(-10%);
+  }
+  70% {
+    opacity: 0;
+    transform: translate(-10%);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes showSum {
+  0% {
+    opacity: 0;
+    transform: translate(-30%) skew(10deg);
+  }
+  70% {
+    opacity: 0;
+    transform: translate(-30%) skew(10deg);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0) skew(10deg);
+  }
+}
+
+@keyframes showLeftSmoke {
+  0% {
+    opacity: 0;
+    transform: translate(-100%);
+  }
+  60% {
+    opacity: 0;
+    transform: translate(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes showRightSmoke {
+  0% {
+    opacity: 0;
+    transform: translate(100%);
+  }
+  60% {
+    opacity: 0;
+    transform: translate(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes showBall {
+  0% {
+    opacity: 0;
+    transform: translate(0,50%);
+  }
+  60% {
+    opacity: 0;
+    transform: translate(0,50%);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes showPlayer {
+  0% {
+    opacity: 0;
+    transform: translate(0,10%);
+  }
+  60% {
+    opacity: 0;
+    transform: translate(0,10%);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes showBox {
+  0% {
+    opacity: 0;
+    transform: translate(-10%);
+  }
+  90% {
+    opacity: 0;
+    transform: translate(-10%);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
