@@ -85,6 +85,10 @@
       left: 0;
       z-index: 2;
       animation: showLeftSmoke 4.5s ease forwards;
+
+      @media (max-width: 768px) {
+        bottom: 10%;
+      }
     }
 
     // .content__img_smoke-right
@@ -94,6 +98,10 @@
       bottom: 0;
       z-index: 3;
       animation: showRightSmoke 4.5s ease forwards;
+
+      @media (max-width: 768px) {
+        min-width: 1000px;
+      }
     }
 
     // .content__img_ball-one
